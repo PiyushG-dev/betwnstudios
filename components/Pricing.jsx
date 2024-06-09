@@ -12,7 +12,7 @@ const Pricing = () => {
             </h2>
 
             <p className="mt-2 text-gray-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
             </p>
 
             <p className="mt-2 sm:mt-4">
@@ -33,7 +33,7 @@ const Pricing = () => {
 
           <div className="p-6 sm:px-8">
             <p className="text-lg font-medium text-gray-900 sm:text-xl">
-              What's included:
+              What's included
             </p>
 
             <ul className="mt-2 space-y-2 sm:mt-4">
@@ -162,7 +162,7 @@ const Pricing = () => {
             </h2>
 
             <p className="mt-2 text-gray-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
             </p>
 
             <p className="mt-2 sm:mt-4">
@@ -183,7 +183,7 @@ const Pricing = () => {
 
           <div className="p-6 sm:px-8">
             <p className="text-lg font-medium text-gray-900 sm:text-xl">
-              What's included:
+              What's included
             </p>
 
             <ul className="mt-2 space-y-2 sm:mt-4">
@@ -312,7 +312,7 @@ const Pricing = () => {
             </h2>
 
             <p className="mt-2 text-gray-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
             </p>
 
             <p className="mt-2 sm:mt-4">
@@ -333,7 +333,7 @@ const Pricing = () => {
 
           <div className="p-6 sm:px-8">
             <p className="text-lg font-medium text-gray-900 sm:text-xl">
-              What's included:
+              What's included
             </p>
 
             <ul className="mt-2 space-y-2 sm:mt-4">

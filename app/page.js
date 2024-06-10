@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import LogoClouds from "@/components/LogoClouds";
 import Newsletter from "@/components/Newsletter";
 import Pricing from "@/components/Pricing";
+import Stats from "@/components/Stats";
 import Testimonial from "@/components/Testimonial";
 
 export default function Home() {

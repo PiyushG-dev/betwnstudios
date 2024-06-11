@@ -38,8 +38,8 @@ const Navbar = () => {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-6">
-          {navigation.map((item) => (
-            <Button variant="link" asChild>
+          {navigation.map((item, i) => (
+            <Button key={i} variant="link" asChild>
               <Link href="#">{item.name}</Link>
             </Button>
           ))}

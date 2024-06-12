@@ -1,4 +1,4 @@
-import { BorderBeam } from "@/components/ui/border-beam";
+import { BorderBeam } from "@/components/animation/border-beam";
 import dashboard from "@/public/dashboard.png";
 import Image from "next/image";
 

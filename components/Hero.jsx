@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import RetroGrid from "./ui/retro-grid";
+import RetroGrid from "./animation/retro-grid";
 
 export default function Hero() {
   return (

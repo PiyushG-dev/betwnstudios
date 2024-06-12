@@ -7,7 +7,6 @@ import LogoClouds from "@/components/LogoClouds";
 import Navbar from "@/components/Navbar";
 import Newsletter from "@/components/Newsletter";
 import Pricing from "@/components/Pricing";
-import Stats from "@/components/Stats";
 import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
@@ -15,13 +14,15 @@ export default function Home() {
     <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
-      <div className="w-full">
+      <div className="w-full px-6 sm:px-0">
         <Dashboard />
       </div>
       <LogoClouds />
       <Features />
       <Testimonial />
+
       <Pricing />
+
       <Newsletter />
       <Blog />
       <Footer />

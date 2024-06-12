@@ -15,7 +15,7 @@ export default function Home() {
     <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
-      <div className="w-full">
+      <div className="w-full px-6 sm:px-0">
         <Dashboard />
       </div>
       <LogoClouds />

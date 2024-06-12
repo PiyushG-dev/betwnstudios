@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Dashboard() {
   return (
-    <div className="max-w-screen-xl relative rounded-xl lg:w-[90%] w-[48rem] mx-auto">
+    <div className="max-w-screen-xl relative rounded-xl sm:w-[90%] w-[48rem] mx-auto">
       <Image
         src={dashboard}
         alt="dashboard"

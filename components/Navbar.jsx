@@ -9,10 +9,10 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Pricing", href: "#" },
-  { name: "Blog", href: "#" },
+  { id: 1, name: "Product", href: "#" },
+  { id: 2, name: "Features", href: "#" },
+  { id: 3, name: "Pricing", href: "#" },
+  { id: 4, name: "Blog", href: "#" },
 ];
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-secondary-foreground"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -38,18 +38,22 @@ const Navbar = () => {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-6">
-          {navigation.map((item, i) => (
-            <Button key={i} variant="link" asChild>
+          {navigation.map((item) => (
+            <Button key={item.id} variant="link" asChild>
               <Link href="#">{item.name}</Link>
             </Button>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          <Button variant="link" asChild>
+            <Link href="#">
+              {" "}
+              Log in <span aria-hidden="true">&rarr;</span>
+            </Link>
+          </Button>
         </div>
       </nav>
+      {/* mobile menu */}
       <Dialog
         className="lg:hidden"
         open={mobileMenuOpen}
@@ -72,22 +76,24 @@ const Navbar = () => {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  <Button
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-muted hover:no-underline"
+                    key={item.id}
+                    variant="link"
+                    asChild
                   >
-                    {item.name}
-                  </a>
+                    <Link href="#">{item.name}</Link>
+                  </Button>
                 ))}
               </div>
               <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                <Button
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-muted hover:no-underline"
+                  variant="link"
+                  asChild
                 >
-                  Log in
-                </a>
+                  <Link href="#">Log in</Link>
+                </Button>
               </div>
             </div>
           </div>

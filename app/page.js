@@ -7,7 +7,6 @@ import LogoClouds from "@/components/LogoClouds";
 import Navbar from "@/components/Navbar";
 import Newsletter from "@/components/Newsletter";
 import Pricing from "@/components/Pricing";
-import Stats from "@/components/Stats";
 import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
@@ -21,7 +20,9 @@ export default function Home() {
       <LogoClouds />
       <Features />
       <Testimonial />
+
       <Pricing />
+
       <Newsletter />
       <Blog />
       <Footer />

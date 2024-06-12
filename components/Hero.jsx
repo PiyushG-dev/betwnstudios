@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import { Button } from "./ui/button";
 import RetroGrid from "./ui/retro-grid";
 
@@ -6,7 +5,6 @@ export default function Hero() {
   return (
     <div>
       <RetroGrid />
-      <Navbar />
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
@@ -22,9 +20,9 @@ export default function Hero() {
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
               Built to elevate startups
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-muted-foreground">
               We create visually stunning and highly functional interfaces that
-              engage visitors and drive conversions and ensure a hassle-free
+              engage visitors to drive conversions and ensure a hassle-free
               experience from concept to launch.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-3">

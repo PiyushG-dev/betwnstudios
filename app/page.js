@@ -20,9 +20,7 @@ export default function Home() {
       <LogoClouds />
       <Features />
       <Testimonial />
-
       <Pricing />
-
       <Newsletter />
       <Blog />
       <Footer />

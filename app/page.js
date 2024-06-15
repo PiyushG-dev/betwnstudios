@@ -3,6 +3,7 @@ import { Dashboard } from "@/components/Dashboard";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 import LogoClouds from "@/components/LogoClouds";
 import Navbar from "@/components/Navbar";
 import Newsletter from "@/components/Newsletter";
@@ -24,6 +25,7 @@ export default function Home() {
       <Newsletter />
       <Blog />
       <Footer />
+      <HeroParallaxDemo />
     </div>
   );
 }

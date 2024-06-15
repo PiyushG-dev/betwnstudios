@@ -20,12 +20,12 @@ export default function Home() {
       </div>
       <LogoClouds />
       <Features />
+      <HeroParallaxDemo />
       <Testimonial />
       <Pricing />
       <Newsletter />
       <Blog />
       <Footer />
-      <HeroParallaxDemo />
     </div>
   );
 }

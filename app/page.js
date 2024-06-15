@@ -1,4 +1,5 @@
 import Blog from "@/components/Blog";
+import Workflow from "@/components/Workflow";
 import { Dashboard } from "@/components/Dashboard";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <LogoClouds />
       <Features />
+      <Workflow />
       <Testimonial />
       <Pricing />
       <Newsletter />

@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { AnimatedBeam } from "@/components/animation/animated-beam";
 import React, { forwardRef, useRef } from "react";
 
-const Circle = forwardRef(({ className, children }, ref) => {
+export const Circle = forwardRef(({ className, children }, ref) => {
   return (
     <div
       ref={ref}

@@ -96,5 +96,3 @@ const Icons = {
     </svg>
   ),
 };
-
-export default Circle;

@@ -1,5 +1,6 @@
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 import { Button } from "./ui/button";
+import { AnimatedBeamDemo } from "./AnimatedBeamDemo";
 
 export default function Newsletter() {
   return (
@@ -8,7 +9,7 @@ export default function Newsletter() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Subscribe to our newsletter.
+              We will get back to you
             </h2>
             <p className="mt-4 text-lg leading-8 text-muted-foreground">
               Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing
@@ -27,10 +28,10 @@ export default function Newsletter() {
                 className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 placeholder="Enter your email"
               />
-              <Button>Subscribe</Button>
+              <Button>say hi</Button>
             </div>
           </div>
-          <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+          {/* <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
             <div className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <CalendarDaysIcon className="h-6 w-6" aria-hidden="true" />
@@ -51,7 +52,8 @@ export default function Newsletter() {
                 Voluptate incididunt anim.
               </dd>
             </div>
-          </dl>
+          </dl> */}
+          <AnimatedBeamDemo />
         </div>
       </div>
     </div>

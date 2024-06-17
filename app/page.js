@@ -9,6 +9,7 @@ import Navbar from "@/components/Navbar";
 import Newsletter from "@/components/Newsletter";
 import Pricing from "@/components/Pricing";
 import Testimonial from "@/components/Testimonial";
+import ParticlesDemo from "@/components/ParticlesDemo";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Dashboard />
       </div>
       <LogoClouds />
+      <ParticlesDemo />
       <Features />
       <Workflow />
       <Testimonial />

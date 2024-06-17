@@ -4,8 +4,9 @@ import { Button } from "./ui/button";
 const Footer = () => {
   return (
     <footer className="bg-white">
-      <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
-        <div className="text-center">
+      <div className="mx-auto max-w-screen-xl px-4 pb-8 sm:px-6 lg:px-8">
+        {/* pt-16 pt-24 */}
+        {/* <div className="text-center">
           <h2 className="text-3xl font-extrabold sm:text-5xl">
             Customise Your Product
           </h2>
@@ -18,7 +19,7 @@ const Footer = () => {
           <Button variant="outline" size="lg" className="mt-4">
             Get Started
           </Button>
-        </div>
+        </div> */}
 
         <div className="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24">
           <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">

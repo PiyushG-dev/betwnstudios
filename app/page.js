@@ -20,13 +20,14 @@ export default function Home() {
         <Dashboard />
       </div>
       <LogoClouds />
-      <ParticlesDemo />
+      <ParticlesDemo words="Just betwn us" />
       <Features />
       <Workflow />
       <Testimonial />
       <Pricing />
       <Newsletter />
-      <Blog />
+      <ParticlesDemo words="betwn studios" />
+      {/* <Blog /> */}
       <Footer />
     </div>
   );

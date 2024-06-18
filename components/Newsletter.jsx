@@ -1,22 +1,38 @@
+"use client";
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 import { Button } from "./ui/button";
 import { AnimatedBeamDemo } from "./AnimatedBeamDemo";
+import { PlaceholdersAndVanishInput } from "./animation/placeholders-and-vanish-input";
+const placeholders = [
+  "What's the first rule of Fight Club?",
+  "Who is Tyler Durden?",
+  "Where is Andrew Laeddis Hiding?",
+  "Write a Javascript method to reverse a string",
+  "How to assemble your own PC?",
+];
 
 export default function Newsletter() {
+  const handleChange = (e) => {
+    console.log(e.target.value);
+  };
+  const onSubmit = (e) => {
+    e.preventDefault();
+    console.log("submitted");
+  };
   return (
     <div className="relative isolate overflow-hidden bg-white py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto items-center grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <AnimatedBeamDemo />
-          <div className="max-w-xl lg:max-w-lg">
+          <div className="max-w-xl lg:max-w-lg flex flex-col gap-4">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               We will get back to you
             </h2>
-            <p className="mt-4 text-lg leading-8 text-muted-foreground">
+            <p className="text-lg leading-8 text-muted-foreground">
               Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing
               velit quis. Duis tempor incididunt dolore.
             </p>
-            <div className="mt-6 flex max-w-md gap-x-4">
+            {/* <div className="mt-6 flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
                 Email address
               </label>
@@ -30,7 +46,12 @@ export default function Newsletter() {
                 placeholder="Enter your email"
               />
               <Button>say hi</Button>
-            </div>
+            </div> */}
+            <PlaceholdersAndVanishInput
+              placeholders={placeholders}
+              onChange={handleChange}
+              onSubmit={onSubmit}
+            />
           </div>
           {/* <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
             <div className="flex flex-col items-start">

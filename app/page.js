@@ -10,6 +10,7 @@ import Newsletter from "@/components/Newsletter";
 import Pricing from "@/components/Pricing";
 import Testimonial from "@/components/Testimonial";
 import ParticlesDemo from "@/components/ParticlesDemo";
+import MarqueeDemo from "@/components/MarqueeDemo";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
       <div className="w-full px-6 sm:px-0">
         <Dashboard />
       </div>
-      <LogoClouds />
+      <MarqueeDemo />
+      {/* <LogoClouds /> */}
       <ParticlesDemo words="Just betwn us" />
       <Features />
       <Workflow />

@@ -4,7 +4,7 @@ import { logoCloudsOne, logoCloudsTwo } from "@/constants";
 const LogoCloud = ({ img }) => {
   return (
     <Image
-      className="max-h-14 w-full object-contain"
+      className="h-14"
       src={img}
       alt="logo-cloud"
       width={158}

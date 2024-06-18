@@ -18,7 +18,7 @@ export default function Marquee({
           "flex-row": !vertical,
           "flex-col": vertical,
           "[gap:var(--gap)]": true,
-          "[--gap:3rem] md:[--gap:6rem] lg:[--gap:10rem]": true,
+          "[--gap:0rem] lg:[--gap:5rem]": true,
         },
         className
       )}

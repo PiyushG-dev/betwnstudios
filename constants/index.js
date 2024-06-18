@@ -4,7 +4,7 @@ import {
   figma,
   aws,
   shadcn,
-  tailwindcss,
+  reactquery,
   reactjs,
   supabase,
   openai,
@@ -12,4 +12,4 @@ import {
 } from "@/utils";
 
 export const logoCloudsOne = [github, aws, next, figma, shadcn];
-export const logoCloudsTwo = [tailwindcss, reactjs, supabase, openai, threejs];
+export const logoCloudsTwo = [reactquery, reactjs, supabase, openai, threejs];

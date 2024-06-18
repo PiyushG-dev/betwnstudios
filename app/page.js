@@ -24,8 +24,8 @@ export default function Home() {
       <Features />
       <Workflow />
       <Testimonial />
-      <Pricing />
       <Newsletter />
+      <Pricing />
       <ParticlesDemo words="betwn studios" />
       {/* <Blog /> */}
       <Footer />

@@ -19,12 +19,12 @@ const MarqueeDemo = () => {
       <h2 className="text-center text-lg font-semibold leading-8">
         Industry standard design and development processes for performance
       </h2>
-      <Marquee pauseOnHover className="[--duration:20s] mt-20">
+      <Marquee className="[--duration:20s] mt-20">
         {logoCloudsOne.map((cloud, i) => (
           <LogoCloud key={i} img={cloud} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:20s] mt-20">
+      <Marquee reverse className="[--duration:20s] mt-20">
         {logoCloudsTwo.map((cloud, i) => (
           <LogoCloud key={i} img={cloud} />
         ))}

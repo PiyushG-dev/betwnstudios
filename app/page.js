@@ -24,7 +24,7 @@ export default function Home() {
       <Workflow />
       <Testimonial />
       <Newsletter />
-      <Pricing />
+      {/* <Pricing /> */}
       <ParticlesDemo words="betwn studios" />
       <Footer />
     </div>

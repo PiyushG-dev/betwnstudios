@@ -1,3 +1,4 @@
+import ShineBorder from "./animation/shine-border";
 export default function Stats() {
   return (
     <section className="bg-white">
@@ -16,29 +17,59 @@ export default function Stats() {
 
         <div className="mt-8 sm:mt-12">
           <dl className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+            <ShineBorder
+              className="flex flex-col px-4 py-8 text-center w-full"
+              color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+            >
               <dt className="order-last text-lg font-medium text-gray-500">
                 Total Sales
               </dt>
 
               <dd className="text-4xl font-extrabold md:text-5xl">$4.8m</dd>
-            </div>
+            </ShineBorder>
+            <ShineBorder
+              className="flex flex-col px-4 py-8 text-center w-full"
+              color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+            >
+              <dt className="order-last text-lg font-medium text-gray-500">
+                Official Addons
+              </dt>
 
-            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+              <dd className="text-4xl font-extrabold md:text-5xl">24</dd>
+            </ShineBorder>
+            <ShineBorder
+              className="flex flex-col px-4 py-8 text-center w-full"
+              color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+            >
+              <dt className="order-last text-lg font-medium text-gray-500">
+                Total Addons
+              </dt>
+
+              <dd className="text-4xl font-extrabold md:text-5xl">86</dd>
+            </ShineBorder>
+            {/* <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+              <dt className="order-last text-lg font-medium text-gray-500">
+                Total Sales
+              </dt>
+
+              <dd className="text-4xl font-extrabold md:text-5xl">$4.8m</dd>
+            </div> */}
+
+            {/* <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
               <dt className="order-last text-lg font-medium text-gray-500">
                 Official Addons
               </dt>
 
               <dd className="text-4xl font-extrabold  md:text-5xl">24</dd>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+            {/* <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
               <dt className="order-last text-lg font-medium text-gray-500">
                 Total Addons
               </dt>
 
               <dd className="text-4xl font-extrabold  md:text-5xl">86</dd>
-            </div>
+            </div> */}
           </dl>
         </div>
       </div>

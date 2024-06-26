@@ -9,6 +9,7 @@ import Testimonial from "@/components/Testimonial";
 import ParticlesDemo from "@/components/ParticlesDemo";
 import MarqueeDemo from "@/components/MarqueeDemo";
 import Stats from "@/components/Stats";
+import { BentoGridSecondDemo } from "@/components/BentoGridDemo";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Stats />
       <Workflow />
       <Testimonial />
+      <BentoGridSecondDemo />
       <Newsletter />
       {/* <Pricing /> */}
       <ParticlesDemo words="betwn studios" />

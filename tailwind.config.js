@@ -98,6 +98,11 @@ module.exports = {
             "background-position": "0% 0%",
           },
         },
+        gradient: {
+          to: {
+            backgroundPosition: "var(--bg-size) 0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -106,6 +111,7 @@ module.exports = {
         "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
         shimmer: "shimmer 8s infinite",
         marquee: "marquee var(--duration) linear infinite",
+        gradient: "gradient 8s linear infinite",
       },
     },
   },

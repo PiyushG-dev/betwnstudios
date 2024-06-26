@@ -11,6 +11,17 @@ import {
 export function BentoGridSecondDemo() {
   return (
     <div className="py-24 sm:py-32">
+      <div className="mx-auto max-w-xl text-center pb-10">
+        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+          Take the next step without any hassle & get results fast
+        </h2>
+
+        {/* <p className="mt-4 text-gray-500 sm:text-xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          dolores laborum labore provident impedit esse recusandae facere libero
+          harum sequi.
+        </p> */}
+      </div>
       <BentoGrid className="mx-auto max-w-7xl px-6 lg:px-8 md:auto-rows-[20rem]">
         {items.map((item, i) => (
           <BentoGridItem

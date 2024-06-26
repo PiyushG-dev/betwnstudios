@@ -18,7 +18,7 @@ export default function Stats() {
             </span>
             <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
           </AnimatedGradientText>
-          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mt-2">
+          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mt-5">
             Trusted by startups
           </h2>
 

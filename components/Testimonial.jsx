@@ -12,9 +12,7 @@ export default function Testimonial() {
         <figure className="mt-10">
           <blockquote className="text-center text-xl font-semibold leading-8 sm:text-2xl sm:leading-9">
             <p>
-              “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
-              in laborum sed rerum et corporis.”
+              “I am thrilled with the website Betwn Studios created for me. Their dedication and expertise are evident in the design, functionality, and user experience. They brought creative ideas and technical skills that exceeded my expectations.”
             </p>
           </blockquote>
           <figcaption className="mt-10">
@@ -24,7 +22,7 @@ export default function Testimonial() {
               alt=""
             />
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold">Judith Black</div>
+              <div className="font-semibold">Siddharth Sharma</div>
               <svg
                 viewBox="0 0 2 2"
                 width={3}
@@ -34,7 +32,7 @@ export default function Testimonial() {
               >
                 <circle cx={1} cy={1} r={1} />
               </svg>
-              <div className="text-muted-foreground">CEO of Workcation</div>
+              <div className="text-muted-foreground">Founder, Kaarwaan Events</div>
             </div>
           </figcaption>
         </figure>

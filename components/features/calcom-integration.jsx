@@ -31,7 +31,7 @@ export default function CalcomIntegration() {
 
   return (
     <Cal
-      calLink="betwn-studios/kickoff-call"
+      calLink="betwn-studios/15min"
       onLoad={handleIframeLoad} // Assuming the Cal component forwards this prop to the iframe
       config={{ layout: "month_view" }}
       style={{ width: "100%", height: "100%", overflow: "scroll" }}

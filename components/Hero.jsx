@@ -3,6 +3,8 @@ import RetroGrid from "./animation/retro-grid";
 import { cn } from "@/lib/utils";
 import ShinyText from "./animation/shiny-text";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
+import ShinyButton from "./animation/shiny-button";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -38,9 +40,10 @@ export default function Hero() {
               engage visitors to drive conversions and ensure a hassle-free
               experience from concept to launch.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-3">
-              <Button>Get Started</Button>
-              <Button variant="link">Learn more →</Button>
+            <div className="mt-10 flex items-center justify-center">
+              <Link href="/calcom">
+                <ShinyButton text="Book a call" />
+              </Link>
             </div>
           </div>
         </div>

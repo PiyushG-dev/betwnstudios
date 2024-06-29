@@ -7,6 +7,7 @@ import logo from "@/public/betwn.svg";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import ShinyButton from "./animation/shiny-button";
 
 const navigation = [
   { id: 1, name: "Product", href: "#" },
@@ -45,12 +46,9 @@ const Navbar = () => {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Button variant="link" asChild>
-            <Link href="#">
-              {" "}
-              Log in <span aria-hidden="true">&rarr;</span>
-            </Link>
-          </Button>
+          <Link href="/calcom">
+            <ShinyButton text="Book a call" />
+          </Link>
         </div>
       </nav>
       {/* mobile menu */}

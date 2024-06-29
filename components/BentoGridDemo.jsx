@@ -13,7 +13,7 @@ import {
 export function BentoGridSecondDemo() {
   return (
     <div className="py-24 sm:py-32">
-      <div className="mx-auto max-w-xl text-center pb-10 flex flex-col gap-2">
+      <div className="mx-auto max-w-xl text-center pb-10 flex flex-col gap-5">
         <AnimatedGradientText>
           🎉 <hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-300" />{" "}
           <span

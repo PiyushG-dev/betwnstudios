@@ -3,6 +3,7 @@ import RetroGrid from "./animation/retro-grid";
 import { cn } from "@/lib/utils";
 import ShinyText from "./animation/shiny-text";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
+import ShimmerButton from "./animation/shimmer-button";
 
 export default function Hero() {
   return (
@@ -39,8 +40,13 @@ export default function Hero() {
               experience from concept to launch.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-3">
-              <Button>Get Started</Button>
-              <Button variant="link">Learn more →</Button>
+            <ShimmerButton className="shadow-2xl">
+        <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+          Schedule a call
+        </span>
+      </ShimmerButton>
+              {/* <Button>Get Started</Button>
+              <Button variant="link">Learn more →</Button> */}
             </div>
           </div>
         </div>

@@ -1,7 +1,5 @@
 "use client";
-import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
-import { Button } from "./ui/button";
-import { AnimatedBeamDemo } from "./AnimatedBeamDemo";
+import { AnimatedBeamDemo } from "./AnimatedBeamComp";
 import { PlaceholdersAndVanishInput } from "./animation/placeholders-and-vanish-input";
 const placeholders = [
   "What's the first rule of Fight Club?",

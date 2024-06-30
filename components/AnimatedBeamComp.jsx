@@ -18,7 +18,7 @@ const Circle = forwardRef(function Circle({ className, children }, ref) {
   );
 });
 
-export function AnimatedBeamDemo() {
+export function AnimatedBeamComp() {
   const containerRef = useRef(null);
   const div1Ref = useRef(null);
   const div2Ref = useRef(null);

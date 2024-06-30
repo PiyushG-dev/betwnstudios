@@ -3,7 +3,7 @@ import React from "react";
 
 const Calcom = () => {
   return (
-    <main className="pt-20 lg:pt-32">
+    <main className="lg:pt-32">
       <CalcomIntegration />
     </main>
   );

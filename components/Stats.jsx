@@ -4,7 +4,7 @@ import ShineBorder from "./animation/shine-border";
 import AnimatedGradientText from "./animation/animated-gradient-text";
 export default function Stats() {
   return (
-    <section className="bg-white">
+    <section>
       <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <AnimatedGradientText>
@@ -29,38 +29,8 @@ export default function Stats() {
           </p>
         </div>
 
-        <div className="mt-8 sm:mt-12">
+        <div className="mt-8 sm:mt-10">
           <dl className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-            {/* <ShineBorder
-              className="flex flex-col px-4 py-8 text-center w-full"
-              color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
-            >
-              <dt className="order-last text-lg font-medium text-gray-500">
-                Total Sales
-              </dt>
-
-              <dd className="text-4xl font-extrabold md:text-5xl">$4.8m</dd>
-            </ShineBorder>
-            <ShineBorder
-              className="flex flex-col px-4 py-8 text-center w-full"
-              color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
-            >
-              <dt className="order-last text-lg font-medium text-gray-500">
-                Official Addons
-              </dt>
-
-              <dd className="text-4xl font-extrabold md:text-5xl">24</dd>
-            </ShineBorder>
-            <ShineBorder
-              className="flex flex-col px-4 py-8 text-center w-full"
-              color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
-            >
-              <dt className="order-last text-lg font-medium text-gray-500">
-                Total Addons
-              </dt>
-
-              <dd className="text-4xl font-extrabold md:text-5xl">86</dd>
-            </ShineBorder> */}
             <div className="flex flex-col rounded-lg border border-gray-200 px-4 py-8 text-center">
               <dt className="order-last text-lg font-medium text-gray-500">
                 Total Sales

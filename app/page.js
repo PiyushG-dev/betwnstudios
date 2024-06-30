@@ -4,7 +4,6 @@ import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import Newsletter from "@/components/Newsletter";
 import Testimonial from "@/components/Testimonial";
 import ParticlesDemo from "@/components/ParticlesDemo";
 import MarqueeDemo from "@/components/MarqueeDemo";
@@ -35,7 +34,7 @@ export default function Home() {
         <CalcomIntegration />
       </div>
       <BentoGridSecondDemo />
-      <Newsletter />
+      {/* <Newsletter /> */}
       {/* <Pricing /> */}
       <ParticlesDemo words="betwn studios" />
       <Footer />

@@ -31,7 +31,7 @@ export default function Stats() {
 
         <div className="mt-8 sm:mt-10">
           <dl className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-            <div className="flex flex-col rounded-lg border border-gray-200 px-4 py-8 text-center">
+            <div className="flex flex-col border-b sm:border-r sm:border-b-0 border-gray-200 px-4 py-8 text-center">
               <dt className="order-last text-lg font-medium text-gray-500">
                 Total Sales
               </dt>
@@ -39,7 +39,7 @@ export default function Stats() {
               <dd className="text-4xl font-extrabold md:text-5xl">$4.8m</dd>
             </div>
 
-            <div className="flex flex-col rounded-lg border border-gray-200 px-4 py-8 text-center">
+            <div className="flex flex-col border-b sm:border-r sm:border-b-0 border-gray-200 px-4 py-8 text-center">
               <dt className="order-last text-lg font-medium text-gray-500">
                 Official Addons
               </dt>
@@ -47,7 +47,7 @@ export default function Stats() {
               <dd className="text-4xl font-extrabold  md:text-5xl">24</dd>
             </div>
 
-            <div className="flex flex-col rounded-lg border border-gray-200 px-4 py-8 text-center">
+            <div className="flex flex-col px-4 py-8 text-center">
               <dt className="order-last text-lg font-medium text-gray-500">
                 Total Addons
               </dt>

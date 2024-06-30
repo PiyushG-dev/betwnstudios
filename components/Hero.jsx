@@ -1,12 +1,14 @@
+import React from "react";
 import { cn } from "@/lib/utils";
 import ShinyText from "./animation/shiny-text";
-import ShimmerButton from "./animation/shimmer-button";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
+import ShimmerButton from "./animation/shimmer-button";
 
-export default function Hero() {
+export function Hero() {
   return (
-    <div>
+    <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex items-center justify-center">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="mb-8 flex justify-center">
@@ -16,16 +18,16 @@ export default function Hero() {
               )}
             >
               <ShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-                <span>✨ betwnUI coming soon</span>
+                <span>🚀 BetwnUI coming soon</span>
                 <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
               </ShinyText>
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl text-transparent bg-gradient-to-b from-neutral-300 to-neutral-900 bg-clip-text">
               Built to elevate startups
             </h1>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground">
+            <p className="mt-6 text-lg leading-8">
               We create visually stunning and highly functional interfaces that
               engage visitors to drive conversions and ensure a hassle-free
               experience from concept to launch.
@@ -42,6 +44,9 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      {/* <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
+        Backgrounds
+      </p> */}
     </div>
   );
 }

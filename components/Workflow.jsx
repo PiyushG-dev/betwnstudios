@@ -5,7 +5,7 @@ import {
   ServerIcon,
 } from "@heroicons/react/20/solid";
 import { FlipWords } from "./animation/flip-words";
-import { AnimatedListDemo } from "./AnimatedListDemo";
+import { AnimatedListComp } from "./AnimatedListComp";
 const features = [
   {
     name: "Push to deploy.",
@@ -27,7 +27,7 @@ const Workflow = () => {
     <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <AnimatedListDemo />
+          <AnimatedListComp />
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <div className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">

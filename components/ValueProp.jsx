@@ -2,10 +2,7 @@ import { cn } from "@/lib/utils";
 import AnimatedGradientText from "@/components/animation/animated-gradient-text";
 import { ChevronRight } from "lucide-react";
 import React from "react";
-import {
-  BentoGrid,
-  BentoGridItem,
-} from "@/components/animation/bento-grid-test";
+import { BentoGrid, BentoGridItem } from "@/components/animation/bento-grid";
 import {
   TargetIcon,
   PersonIcon,
@@ -13,7 +10,7 @@ import {
   GlobeIcon,
 } from "@radix-ui/react-icons";
 
-export function ValuePropDemo() {
+export default function ValueProp() {
   return (
     <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-xl text-center mb-8 sm:mb-10 flex flex-col gap-2">
@@ -56,21 +53,21 @@ const items = [
     description: "Explore the birth of groundbreaking ideas and inventions.",
     header: <Skeleton />,
     className: "md:col-span-2",
-    icon: <TargetIcon className="h-4 w-4 text-neutral-500" />,
+    icon: <TargetIcon className="h-8 w-8 text-neutral-500" />,
   },
   {
     title: "Fastest Speed",
     description: "Dive into the transformative power of technology.",
     header: <Skeleton />,
     className: "md:col-span-1",
-    icon: <PersonIcon className="h-4 w-4 text-neutral-500" />,
+    icon: <PersonIcon className="h-8 w-8 text-neutral-500" />,
   },
   {
     title: "The Art of Design",
     description: "Discover the beauty of thoughtful and functional design.",
     header: <Skeleton />,
     className: "md:col-span-1",
-    icon: <StarFilledIcon className="h-4 w-4 text-neutral-500" />,
+    icon: <StarFilledIcon className="h-8 w-8 text-neutral-500" />,
   },
   {
     title: "Everything in Cloud",
@@ -78,6 +75,6 @@ const items = [
       "Understand the impact of effective communication in our lives.",
     header: <Skeleton />,
     className: "md:col-span-2",
-    icon: <GlobeIcon className="h-4 w-4 text-neutral-500" />,
+    icon: <GlobeIcon className="h-8 w-8 text-neutral-500" />,
   },
 ];

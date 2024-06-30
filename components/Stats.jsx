@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
-import ShineBorder from "./animation/shine-border";
 import AnimatedGradientText from "./animation/animated-gradient-text";
 export default function Stats() {
   return (

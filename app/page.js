@@ -8,11 +8,14 @@ import ParticlesDemo from "@/components/ParticlesDemo";
 import MarqueeDemo from "@/components/MarqueeDemo";
 import Stats from "@/components/Stats";
 import ValueProp from "@/components/ValueProp";
-import { Hero } from "@/components/Hero";
+import Hero from "@/components/Hero";
+import Consultation from "@/components/Consultation";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
+      <Banner />
       <Navbar />
       <Hero />
       <div className="w-full px-6 sm:px-0">
@@ -24,6 +27,7 @@ export default function Home() {
       <Stats />
       <Workflow />
       <Testimonial />
+      <Consultation />
       <ValueProp />
       <ParticlesDemo words="betwn studios" />
       <Footer />

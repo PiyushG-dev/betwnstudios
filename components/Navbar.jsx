@@ -6,8 +6,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "@/public/betwn.svg";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import ShimmerButton from "./animation/shimmer-button";
 import Link from "next/link";
-import ShinyButton from "./animation/shiny-button";
 
 const navigation = [
   { id: 1, name: "Product", href: "#" },
@@ -47,7 +47,11 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link href="/calcom">
-            <ShinyButton text="Book a call" />
+            <ShimmerButton className="shadow-2xl">
+              <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10">
+                Schedule a call
+              </span>
+            </ShimmerButton>
           </Link>
         </div>
       </nav>
@@ -85,13 +89,13 @@ const Navbar = () => {
                 ))}
               </div>
               <div className="py-6">
-                <Button
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-muted hover:no-underline"
-                  variant="link"
-                  asChild
-                >
-                  <Link href="#">Log in</Link>
-                </Button>
+                <Link href="/calcom">
+                  <ShimmerButton className="shadow-2xl">
+                    <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10">
+                      Schedule a call
+                    </span>
+                  </ShimmerButton>
+                </Link>
               </div>
             </div>
           </div>

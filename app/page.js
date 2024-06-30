@@ -8,8 +8,8 @@ import Testimonial from "@/components/Testimonial";
 import ParticlesDemo from "@/components/ParticlesDemo";
 import MarqueeDemo from "@/components/MarqueeDemo";
 import Stats from "@/components/Stats";
-import { BentoGridSecondDemo } from "@/components/BentoGridDemo";
 import CalcomIntegration from "@/components/features/calcom-integration";
+import { ValuePropMain } from "@/components/ValuePropMain";
 
 export default function Home() {
   return (
@@ -33,9 +33,7 @@ export default function Home() {
         </div>
         <CalcomIntegration />
       </div>
-      <BentoGridSecondDemo />
-      {/* <Newsletter /> */}
-      {/* <Pricing /> */}
+      <ValuePropMain />
       <ParticlesDemo words="betwn studios" />
       <Footer />
     </div>

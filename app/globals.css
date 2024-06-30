@@ -75,15 +75,6 @@
   }
 }
 
-/* .clouds:nth-child(5) {
-  grid-column-start: 2;
+html {
+  scroll-behavior: smooth;
 }
-
-@media (min-width: 640px) {
-  .clouds:nth-child(4) {
-    grid-column-start: 2;
-  }
-  .clouds:nth-child(5) {
-    grid-column-start: auto;
-  }
-} */

@@ -20,7 +20,7 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
+    <header className="inset-x-0 top-0 z-50">
       <nav
         className="flex items-start justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link href="/calcom">
-            <ShimmerButton className="shadow-2xl">
+            <ShimmerButton>
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10">
                 Schedule a call
               </span>

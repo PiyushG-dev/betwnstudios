@@ -16,7 +16,7 @@ const LogoCloud = ({ img }) => {
 const MarqueeDemo = () => {
   return (
     <div className="mx-auto relative flex h-full max-w-screen-xl flex-col items-center justify-center overflow-hidden bg-background py-20">
-      <h2 className="text-center text-lg font-semibold leading-8">
+      <h2 className="text-center text-lg font-semibold leading-8 z-10 px-2 sm:px-0">
         Industry standard design and development processes for performance
       </h2>
       <Marquee className="[--duration:20s] mt-20">

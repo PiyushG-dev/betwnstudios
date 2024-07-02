@@ -94,6 +94,4 @@ function ConfettiButton({ options, children, ...props }) {
   );
 }
 
-export { Confetti, ConfettiButton };
-
 export default Confetti;

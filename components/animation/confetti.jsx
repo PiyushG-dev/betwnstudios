@@ -94,4 +94,6 @@ function ConfettiButton({ options, children, ...props }) {
   );
 }
 
+Confetti.displayName = "Confetti";
+
 export default Confetti;

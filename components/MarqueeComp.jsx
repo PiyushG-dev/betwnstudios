@@ -13,7 +13,7 @@ const LogoCloud = ({ img }) => {
   );
 };
 
-const MarqueeDemo = () => {
+const MarqueeComp = () => {
   return (
     <div className="mx-auto relative flex h-full max-w-screen-xl flex-col items-center justify-center overflow-hidden bg-background py-20">
       <h2 className="text-center text-lg font-semibold leading-8 z-10 px-2 sm:px-0">
@@ -35,4 +35,4 @@ const MarqueeDemo = () => {
   );
 };
 
-export default MarqueeDemo;
+export default MarqueeComp;
